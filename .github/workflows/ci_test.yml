@@ -25,4 +25,3 @@ jobs:
     - name: Testing with flake8
       run: |
         flake8 .
-        
