@@ -3,7 +3,7 @@ name: CI-testing Application
 on:
   push:
     branches:
-      - ['main','master']
+      - 'master'
 
 jobs:
   custom_build:
