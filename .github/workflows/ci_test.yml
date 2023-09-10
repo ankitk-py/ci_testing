@@ -6,7 +6,7 @@ on:
       - 'master'
 
 jobs:
-  custom_build:
+  CI_testing:
     runs-on: ubuntu-latest
 
     steps:
