@@ -1,0 +1,18 @@
+name: CI-testing Application
+
+on:
+  push:
+    branches:
+      - ['main','master']
+
+jobs:
+  custom_build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setting up the Python 3.7
+        uses: actions/setup-python@v3 
+        with:
+          python-version: 3.7
